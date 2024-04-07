@@ -167,7 +167,7 @@ let str = `
  ❐─━──━〘•⊰❉⊱•〙•━──━─❐
 `
 
-    conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, false, { mentions: [who] })
+    conn.sendFile(m.chat, pp, 'perfil.jpg', str, false, { mentions: [who] })
 
 }
 handler.help = ['main']
